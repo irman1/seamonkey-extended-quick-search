@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<overlay id="QuickFolders-Overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/javascript" src="chrome://extendedquicksearch/content/searchBar.js"/>
+	<!--toolbox id="mail-toolbox">
+	<toolbar
+		insertafter="MailToolbarPalette"
+		id="QuickFolders-Toolbar"
+		>
+			<vbox id="QuickFolders-LabelBox" flex="0">
+      			<textbox id="eqsSearchInput"
+             	    type="search"
+                    timeout="1000"
+                    maxlength="192"
+                    width="320"
+                    maxwidth="500"
+                    minwidth="280"
+                    oncommand="onEnterInSearchBarEQS();"
+                    onkeypress="if (event.keyCode == KeyEvent.DOM_VK_RETURN) this.select();"
+                />
+			</vbox>
+	</toolbar>
+	</toolbox-->
+</overlay>
+

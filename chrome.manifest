@@ -1,0 +1,9 @@
+content   extendedquicksearch                 content/
+skin      extendedquicksearch   classic/1.0   skin/
+locale    extendedquicksearch   en-US         locale/en-US/
+locale    extendedquicksearch   zh-CN         locale/zh-CN/
+resource  extendedquicksearch                 modules/
+
+
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://extendedquicksearch/content/eqsQuickFilterBar.xul
+

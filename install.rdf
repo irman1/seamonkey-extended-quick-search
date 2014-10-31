@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{03EF8A6E-C972-488f-92FA-98ABC2C9F8B8}</em:id>
+    <em:type>2</em:type>
+    <em:name>seamonkey extended quick search</em:name>
+     <em:version>0.1.0</em:version>
+    <em:creator></em:creator>
+    <em:contributor></em:contributor>
+    <em:description>Type "from:fred to:tom" to see all messages from Fred to Tom in the current view.</em:description>
+     <em:targetApplication>
+      <Description>
+        <!-- SeaMonkey -->
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>2.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

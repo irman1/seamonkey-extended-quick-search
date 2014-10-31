@@ -1,0 +1,89 @@
+.textlink {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.abouthead {
+  font-weight: bold;
+  font-size: large;
+}
+
+.tooltip-token {
+  font-weight: bold;
+  color: green;
+}
+
+.tooltip-info {
+  color: blue;
+}
+
+.tooltip-match {
+  color: purple;
+}
+
+.tooltip-term {
+  color: grey;
+}
+
+.customHeadersShow{
+  color: grey;
+}
+
+.search-value-custom[searchAttribute^="expressionsearch#"] {
+  -moz-binding: url("chrome://expressionsearch/content/bindings.xml#expressionSearchTextBoxBinding");
+}
+
+.expressionsearch_pref_input {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* make the main bar looks better when placed on menubar/toolbar */
+#mail-bar3 #quick-filter-bar-main-bar,
+#mail-toolbar-menubar2 #quick-filter-bar-main-bar {
+  width: 600px;
+  -moz-box-flex: 1;
+  flex: 1;
+  background-color: transparent;
+  border: 0 solid red; /* for TB5, force no border */
+}
+
+/* fix the result label color issue when placed on menubar/toolbar */
+#qfb-results-label[filterActive="matches"] {
+  color: green;
+}
+
+#qfb-results-label[filterActive="nomatches"] {
+  color: #f66;
+}
+
+/* force show or hide button text */
+#quick-filter-bar-collapsible-buttons.hidelabel toolbarbutton label.toolbarbutton-text {
+  display: none;
+}
+
+#quick-filter-bar-collapsible-buttons.showlabel toolbarbutton label.toolbarbutton-text {
+  display: inline;
+}
+
+/* if the width is not enough, make others more flexiable to make my box shown */
+#qfb-filter-bar-spacer {
+  /* do in es.js based on position */
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+#qfb-results-label {
+  margin: 0px;
+  padding: 0px;
+  flex: 5 1;
+}
+
+#expression-search-textbox {
+  flex: 5 1;
+}
+
+.titlebar-placeholder {
+  flex: 0.1 100;
+}
